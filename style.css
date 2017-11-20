@@ -5,6 +5,18 @@ body{
 	/*background-image: url("media/subtle_white_feathers.png");*/
 }
 
+.container{
+	height: 100vh;
+}
+
+.sub-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+}
+
 .overlay{
 	height: 100%;
 	width: 100%;
